@@ -22,6 +22,7 @@ import {
     Truck,
     ShoppingBag,
     Barcode,
+    Sparkles,
 } from "lucide-react"
 import { authService } from "@/services/auth-service"
 import { useMessageNotifications } from "@/hooks/use-message-notifications"
@@ -43,6 +44,7 @@ export function Sidebar({ className }: SidebarProps) {
 
     const navItems = [
         { href: "/pos", key: "nav.pos", icon: Barcode },
+        { href: "/ai-assistant", key: "nav.ai_assistant", icon: Sparkles },
         { href: "/dashboard", key: "nav.dashboard", icon: LayoutDashboard },
         { href: "/catalog", key: "nav.catalog", icon: Package },
         { href: "/suppliers", key: "nav.suppliers", icon: Truck },

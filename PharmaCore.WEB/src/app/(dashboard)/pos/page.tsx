@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState, useEffect, useRef } from "react"
+import { useRouter } from "next/navigation"
 import apiClient from "@/lib/api-client"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -95,6 +96,7 @@ interface ProductSearchResult {
 export default function WebPosPage() {
     const { language } = useLanguage()
     const isRtl = language === "ar"
+    const router = useRouter()
 
     // Search & Scan
     const [searchTerm, setSearchTerm] = useState("")
@@ -377,6 +379,16 @@ export default function WebPosPage() {
 
                 {/* Hot Actions */}
                 <div className="flex items-center gap-2">
+                    <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => router.push("/ai-assistant")}
+                        className="text-indigo-600 border-indigo-200 hover:bg-indigo-50 font-semibold"
+                    >
+                        <Sparkles className="w-4 h-4 me-1.5 text-indigo-500 animate-pulse" />
+                        {isRtl ? "ماسح الروشتات والتعارضات (AI)" : "AI Rx Scanner & Safety"}
+                    </Button>
+
                     <Select value={saleType} onValueChange={(val: any) => setSaleType(val)}>
                         <SelectTrigger className="w-36 h-9 font-semibold text-xs bg-slate-100 dark:bg-slate-800">
                             <SelectValue placeholder={isRtl ? "نوع البيع" : "Sale Type"} />
