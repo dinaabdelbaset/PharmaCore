@@ -18,6 +18,7 @@ const translations = {
         // Navigation
         "nav.pos": "Smart POS",
         "nav.ai_assistant": "AI Clinical Hub",
+        "nav.insurance": "Insurance & Claims",
         "nav.dashboard": "Dashboard",
         "nav.catalog": "Central Catalog",
         "nav.suppliers": "Suppliers",
@@ -378,6 +379,7 @@ const translations = {
         // Navigation
         "nav.pos": "نقطة البيع (الكاشير)",
         "nav.ai_assistant": "مركز الذكاء الاصطناعي",
+        "nav.insurance": "التأمين الطبي والمطالبات",
         "nav.dashboard": "لوحة التحكم",
         "nav.catalog": "الكتالوج الموحد",
         "nav.suppliers": "الموردين",
