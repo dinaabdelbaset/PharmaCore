@@ -16,6 +16,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations = {
     en: {
         // Navigation
+        "nav.pos": "Smart POS",
         "nav.dashboard": "Dashboard",
         "nav.catalog": "Central Catalog",
         "nav.suppliers": "Suppliers",
@@ -374,6 +375,7 @@ const translations = {
     },
     ar: {
         // Navigation
+        "nav.pos": "نقطة البيع (الكاشير)",
         "nav.dashboard": "لوحة التحكم",
         "nav.catalog": "الكتالوج الموحد",
         "nav.suppliers": "الموردين",
