@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project outputDir="bin\protected" xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" preset="maximum">
+    <protection id="rename" />
+    <protection id="resources" />
+    <protection id="ctrl flow" />
+    <protection id="constants" />
+    <protection id="anti tamper" />
+    <protection id="anti debug" />
+  </rule>
+  <module path="bin\Release\net8.0-windows\PharmaCore.POS.exe" />
+</project>

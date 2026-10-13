@@ -1,0 +1,108 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>icons8_medical_symbol.ico</ApplicationIcon>
+    <!-- Added for improved designer/runtime compatibility -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <UseWinFormsHighDpiAutoResizing>true</UseWinFormsHighDpiAutoResizing>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <!-- Ensure design-time can resolve private references -->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Core" Version="1.49.0" />
+    <PackageReference Include="Azure.Identity" Version="1.17.0" />
+    <PackageReference Include="Costura.Fody" Version="6.0.0" PrivateAssets="All" />
+    <PackageReference Include="DevExpress.Win" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.BonusSkins" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.Design" Version="25.1.6" />
+    <PackageReference Include="Fody" Version="6.8.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.7.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.79.2" />
+    <PackageReference Include="Microsoft.Identity.Client.Extensions.Msal" Version="4.79.2" />
+    <PackageReference Include="Microsoft.IdentityModel.Abstractions" Version="8.15.0" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.15.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Logging" Version="8.15.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols" Version="8.15.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.15.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.15.0" />
+    <PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" Version="180.10.0" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="10.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="System.CodeDom" Version="10.0.0" />
+    <PackageReference Include="System.Collections.Immutable" Version="8.0.0" />
+    <PackageReference Include="System.ComponentModel.Composition" Version="10.0.0" />
+    <PackageReference Include="System.Composition.AttributedModel" Version="8.0.0" />
+    <PackageReference Include="System.Composition.Convention" Version="8.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.0" />
+    <PackageReference Include="System.Data.Odbc" Version="10.0.0" />
+    <PackageReference Include="System.Data.OleDb" Version="10.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="10.0.0" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="10.0.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="10.0.0" />
+    <PackageReference Include="System.DirectoryServices" Version="10.0.0" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="10.0.0" />
+    <PackageReference Include="System.DirectoryServices.Protocols" Version="10.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.15.0" />
+    <PackageReference Include="System.IO.Packaging" Version="10.0.0" />
+    <PackageReference Include="System.IO.Pipelines" Version="8.0.0" />
+    <PackageReference Include="System.IO.Ports" Version="10.0.0" />
+    <PackageReference Include="System.Management" Version="10.0.0" />
+    <PackageReference Include="System.Memory.Data" Version="8.0.1" />
+    <PackageReference Include="System.Reflection.Context" Version="10.0.0" />
+    <PackageReference Include="System.Reflection.Metadata" Version="8.0.1" />
+    <PackageReference Include="System.Runtime.Caching" Version="10.0.0" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.1.2" />
+    <PackageReference Include="System.Security.AccessControl" Version="6.0.1" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.0" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="10.0.0" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.0" />
+    <PackageReference Include="System.Security.Permissions" Version="10.0.0" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="10.0.0" />
+    <PackageReference Include="System.Speech" Version="10.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.6" />
+    <PackageReference Include="System.Threading.AccessControl" Version="10.0.0" />
+    <PackageReference Include="CoreWCF.Primitives" Version="1.8.0" />
+    <PackageReference Include="CoreWCF.ConfigurationManager" Version="1.8.0" />
+    <PackageReference Include="CoreWCF.Http" Version="1.8.0" />
+    <PackageReference Include="CoreWCF.WebHttp" Version="1.8.0" />
+    <PackageReference Include="CoreWCF.NetTcp" Version="1.8.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Npgsql" Version="8.0.4" />
+    <PackageReference Include="Isopoh.Cryptography.Argon2" Version="2.0.0" />
+    <PackageReference Include="System.Resources.Extensions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icons8_medical_symbol.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="confuser.crproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="RE\**\*.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="RE\rpt_viewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RE\m63m.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

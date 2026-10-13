@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="PharmaCore.API/PharmaCore.API.csproj" />
+  <Project Path="PharmaCore.Application/PharmaCore.Application.csproj" Id="6154a250-c5f1-49a0-952f-6bd6132b224a" />
+  <Project Path="PharmaCore.Domain/PharmaCore.Domain.csproj" Id="98678224-b232-4c5b-99c6-b9152f3cbe58" />
+  <Project Path="PharmaCore.Infrastructure/PharmaCore.Infrastructure.csproj" Id="20f9aff8-be3e-4353-a5e7-407cde78900a" />
+  <Project Path="PharmaCore.LicenseGenerator/PharmaCore.ActivationManager.csproj" Id="e56704f2-e8a6-4971-bb08-5b491e8ee86d" />
+  <Project Path="PharmaCore.POS/PMP/PharmaCore.POS.csproj" />
+</Solution>

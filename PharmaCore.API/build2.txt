@@ -1,0 +1,28 @@
+﻿  Determining projects to restore...
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj : warning NU1903: Package 'AutoMapper' 12.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x
+D:\M7.T.S. Project\PharmaCore\PharmaCore.Infrastructure\PharmaCore.Infrastructure.csproj : warning NU1903: Package 'Microsoft.Extensions.Caching.Memory' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qj66-m88j-hmgj [D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj]
+  All projects are up-to-date for restore.
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj : warning NU1903: Package 'AutoMapper' 12.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x
+D:\M7.T.S. Project\PharmaCore\PharmaCore.Infrastructure\PharmaCore.Infrastructure.csproj : warning NU1903: Package 'Microsoft.Extensions.Caching.Memory' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qj66-m88j-hmgj
+  PharmaCore.Domain -> D:\M7.T.S. Project\PharmaCore\PharmaCore.Domain\bin\Debug\net10.0\PharmaCore.Domain.dll
+  PharmaCore.Application -> D:\M7.T.S. Project\PharmaCore\PharmaCore.Application\bin\Debug\net10.0\PharmaCore.Application.dll
+  PharmaCore.Infrastructure -> D:\M7.T.S. Project\PharmaCore\PharmaCore.Infrastructure\bin\Debug\net10.0\PharmaCore.Infrastructure.dll
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\Controllers\StandardItemsController.cs(119,69): error CS0234: The type or namespace name 'ActiveIngredient' does not exist in the namespace 'PharmaCore.Domain.Entities' (are you missing an assembly reference?) [D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj]
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\Controllers\StandardItemsController.cs(121,69): error CS0234: The type or namespace name 'ProductUsage' does not exist in the namespace 'PharmaCore.Domain.Entities' (are you missing an assembly reference?) [D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj]
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\Controllers\StandardItemsController.cs(123,69): error CS0234: The type or namespace name 'ProductCompany' does not exist in the namespace 'PharmaCore.Domain.Entities' (are you missing an assembly reference?) [D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj]
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\Controllers\StandardItemsController.cs(74,28): warning CS8602: Dereference of a possibly null reference. [D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj]
+
+Build FAILED.
+
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj : warning NU1903: Package 'AutoMapper' 12.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x
+D:\M7.T.S. Project\PharmaCore\PharmaCore.Infrastructure\PharmaCore.Infrastructure.csproj : warning NU1903: Package 'Microsoft.Extensions.Caching.Memory' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qj66-m88j-hmgj [D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj]
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj : warning NU1903: Package 'AutoMapper' 12.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x
+D:\M7.T.S. Project\PharmaCore\PharmaCore.Infrastructure\PharmaCore.Infrastructure.csproj : warning NU1903: Package 'Microsoft.Extensions.Caching.Memory' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qj66-m88j-hmgj
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\Controllers\StandardItemsController.cs(74,28): warning CS8602: Dereference of a possibly null reference. [D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj]
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\Controllers\StandardItemsController.cs(119,69): error CS0234: The type or namespace name 'ActiveIngredient' does not exist in the namespace 'PharmaCore.Domain.Entities' (are you missing an assembly reference?) [D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj]
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\Controllers\StandardItemsController.cs(121,69): error CS0234: The type or namespace name 'ProductUsage' does not exist in the namespace 'PharmaCore.Domain.Entities' (are you missing an assembly reference?) [D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj]
+D:\M7.T.S. Project\PharmaCore\PharmaCore.API\Controllers\StandardItemsController.cs(123,69): error CS0234: The type or namespace name 'ProductCompany' does not exist in the namespace 'PharmaCore.Domain.Entities' (are you missing an assembly reference?) [D:\M7.T.S. Project\PharmaCore\PharmaCore.API\PharmaCore.API.csproj]
+    5 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:01.09
